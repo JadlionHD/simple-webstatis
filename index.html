@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hendra Gunawan</title>
+	<link href="vendor/bootstrap.min.css" rel="stylesheet">
+	<style>
+		body {
+			background-color: #131313;
+			color: #ffffff;
+		}
+	</style>
+  </head>
+
+
+  <body>
+	<div class="container" style="margin-top: 4rem;">
+		<div style="margin-bottom: 6rem;">
+			<img src="assets/profile.jpg" class="img-fluid float-end rounded-circle" alt="profile" width="160">
+			<h1>Hendra Gunawan</h1>
+			<p>Ordinary programmer</p>
+
+			<div>
+				Halo! Saya Hendra Gunawan, berusia 19 tahun, dan saya merupakan seorang Fullstack Developer.
+				<br>
+				<br>
+				Saya adalah lulusan SMK dengan jurusan Rekayasa Perangkat Lunak, memiliki minat yang mendalam dalam teknologi, khususnya dalam pengembangan fullstack. Selama studi saya, saya telah mengembangkan keterampilan dalam berbagai bahasa pemrograman dan framework, yang memungkinkan saya untuk menciptakan solusi perangkat lunak yang inovatif.
+				<br>
+				<br>
+				Saya memiliki pengalaman dalam merancang dan mengembangkan aplikasi web dan desktop, dengan fokus pada aplikasi yang terkait dengan jaringan, seperti game multiplayer. Saya selalu berkomitmen untuk mengikuti tren terbaru dalam industri teknologi dan terus meningkatkan keterampilan saya melalui proyek-proyek praktis dan saya senang berkolaborasi dengan tim.
+				<br>
+				<br>
+				Saya percaya bahwa teknologi memiliki potensi untuk mengubah kehidupan, dan saya bersemangat untuk berkontribusi pada pengembangan solusi yang berdampak positif.
+			</div>
+		</div>
+
+		<div class="text-center">
+			<h3>Projects</h3>
+		</div>
+
+
+		<div class="d-flex justify-content-center" style="column-gap: 8rem; margin-bottom: 8rem;">
+			<a href="https://github.com/StileDevs/GrowServer" target="_blank">
+				<img src="assets/banner_growserver.png" class="img-fluid" width="380" alt="GrowServer">
+			</a>
+			<a href="https://github.com/StileDevs/growtopia.js" target="_blank">
+				<img src="assets/banner_growtopiajs.png" class="img-fluid" width="380" alt="GrowServer">
+			</a>
+		</div>
+
+
+		<footer class="text-center">
+			<div id="text-footer"></div>
+		</footer>
+	</div>
+
+	<script src="vendor/bootstrap.bundle.min.js"></script>
+	<script lang="javascript">
+		document.getElementById("text-footer").innerHTML = `Copyright ${new Date().getFullYear()}`;
+	</script>
+  </body>
+</html>
